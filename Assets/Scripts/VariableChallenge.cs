@@ -14,7 +14,7 @@ public class VariableChallenge : MonoBehaviour
 
     public string myName = "Rob";
     public int myAge = 38;
-    public float speed = 5;
+    public float speed = 5f;
     public int playerHealth = 100;
     public int score = 0;
     public int ammo = 5;
