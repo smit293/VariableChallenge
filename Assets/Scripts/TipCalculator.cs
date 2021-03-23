@@ -8,7 +8,7 @@ public class TipCalculator : MonoBehaviour
     //Tip is 20% or based on user input
     //Calculate total amount
 
-    public float billAmount = 40f;
+    public float billAmount = 40.0f;
     public float tipAmount;
     public float totalTip;
     public float totalAmount;

@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -299,6 +300,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f09724072d5714f81a531f5b61312a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quiz1: 0
+  quiz2: 0
+  quiz3: 0
+  quiz4: 0
+  quiz5: 0
+  minGrade: 0
+  maxGrade: 100
 --- !u!1 &1507270380
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,7 +331,6 @@ GameObject:
   - component: {fileID: 1507270384}
   - component: {fileID: 1507270383}
   - component: {fileID: 1507270382}
-  - component: {fileID: 1507270381}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -319,22 +338,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1507270381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507270380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f859206da21d9fb469ba53df7cd094bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  billAmount: 40
-  tipAmount: 10
-  totalTip: 0
-  totalAmount: 0
 --- !u!65 &1507270382
 BoxCollider:
   m_ObjectHideFlags: 0
