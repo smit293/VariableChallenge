@@ -16,6 +16,7 @@ public class QuizCalculator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         quiz1 = Random.Range(minGrade, maxGrade);
         quiz2 = Random.Range(minGrade, maxGrade);
         quiz3 = Random.Range(minGrade, maxGrade);
@@ -23,6 +24,7 @@ public class QuizCalculator : MonoBehaviour
         quiz5 = Random.Range(minGrade, maxGrade);
 
         float quizAverage = (quiz1 + quiz2 + quiz3 + quiz4 + quiz5) / 5;
+
         Debug.Log("The scores are: " + "Quiz1: " + quiz1 + " Quiz2: " + quiz2 + " Quiz3: " + quiz3 + " Quiz4: " + quiz4 + " Quiz5: " + quiz5);
         Debug.Log("The average score is: " + quizAverage);
     }
